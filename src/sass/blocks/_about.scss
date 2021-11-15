@@ -1,0 +1,40 @@
+.about {
+    height:300px;
+    padding-top: 86px;
+    margin-top: 95px;
+    background-color: $main-red;
+    &__items {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 40px;
+        img {
+            display: block;
+            width: 80px;
+            height: 80px;
+            margin-right: 32px;
+        }
+        &_wrapper {
+            padding-top: 10px;
+        }
+        &_title {
+            font-style: normal;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 29px;
+            color: #fff;
+        }
+        &_subtitle {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #fff;
+            margin-top: 29px;
+        }
+    }
+}

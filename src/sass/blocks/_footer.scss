@@ -1,0 +1,126 @@
+.footer {
+    height: 560px;
+    &__wrapper {
+        height: 560px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__contacts {
+        width: 795px;
+        padding: 60px 75px;
+        &_wrapper {
+            margin-top: 50px;
+            display: flex;
+        }
+        &_item {
+            margin-bottom: 16px;
+            margin-right: 77px;
+            img {
+                margin-right: 8px;
+                width: 20px;
+            }
+            img.tel {
+                margin-top: 5px;
+            }
+            a {
+                font-weight: 800;
+                font-size: 18px;
+                line-height: 22px;
+                color: $main-green;
+            }
+            hr {
+                width: 89%;
+                height: 1px;
+                background-color: $main-red;
+                margin-left: 29px;                
+            }
+        }
+        &_social {
+            text-align: center;
+            h3 {
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 18px;
+                color: $main-green;
+                margin-bottom: 11px;
+            }
+            a {                
+                margin-right: 20px;
+            }
+        }
+    }
+    &__logo {
+        width: 400px;
+        height: 78px;
+        img {
+            width: 100%;
+        }
+    }
+    &__showroom {
+        margin-top: 35px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: $main-green;
+        &_addrres {
+            margin-top: 30px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: $main-green;
+        }
+    }
+    &__modal {
+        width: 1125px;
+        padding-top: 110px;
+        padding-left:  180px;
+        padding-right: 130px;
+        background: url('../img/footer/footer.jpg') center (center/cover) no-repeat ;
+        &_title {
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 61px;
+            color: #fff;
+            span {
+                color: $main-red;
+            }
+        }
+        &_subtitle {
+            margin-top: 50px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #fff;
+        }
+        &_form {
+            margin-top: 40px;
+            display: flex;
+            input {
+                width: 421px;
+                height: 50px;
+                border: 2px solid #FFFFFF;
+                background: none;
+                border-radius: 53px;
+                padding: 0 26px;
+                font-size: 16px;
+                line-height: 20px;
+                font-weight: 700;
+                color: #ffffff;
+                &::placeholder {
+                    color: #fff;
+                }
+            }
+            button {
+                margin: 0;
+            }
+        }
+        &_policy {
+            margin-top: 17px;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+    }
+}

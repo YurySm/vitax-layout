@@ -1,0 +1,12 @@
+.mattresses {
+    min-height: 700px;
+    &__wrapper {
+        margin-top: 0px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__slider {
+        max-width: 1170px;
+    } 
+    
+}

@@ -1,0 +1,30 @@
+.content {
+    width: 550px;
+    margin-right: 72px;
+}
+.title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+    color: #3F5D65;
+    text-transform: uppercase;
+}
+.subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    color: #3F5D65;
+    margin-top: 40px;
+}
+
+.white{
+    color: #fff !important;
+}
+.white_bg {
+    background-color: #fff;
+}
+.red {
+    color: $main-red;
+}

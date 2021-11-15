@@ -1,0 +1,11 @@
+.kitchen {
+    min-height: 723px;
+    &__wrapper {
+        padding-top: 137px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__slider {
+        max-width: 1170px;
+    }    
+}

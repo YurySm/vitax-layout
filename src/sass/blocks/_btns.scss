@@ -1,0 +1,24 @@
+.btn {
+    display: block;
+    width: 30px;
+    height: 25px;
+    &_search {
+        background-color:#F1F7F7;
+    }
+}
+.btn_titles {
+    width: 270px;
+    height: 50px;
+    background-color: $main-red;
+    border-radius: 50px;
+    margin-top: 85px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 25px;  
+    font-weight: 700;
+    &_white {
+        background-color: #fff;
+        color: $main-red;
+    }
+}

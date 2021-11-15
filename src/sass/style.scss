@@ -1,0 +1,84 @@
+@import 'libs/style_my_normolize';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.show{display: block;}
+.hide{display: none;}
+.fade{animation-name: fade;animation-duration: 1s;}
+@keyframes fade{from{opacity: 0.1;}to{opacity: 1;}} 
+
+
+.container {
+    width: 1770px;
+    margin: 0 auto;
+    &__mini {
+        width: 1186px;
+        margin: 0 auto;
+    }
+}
+.product__bg {
+    background-color: #F1F7F7;
+}
+
+.hamburger {
+    display: none;
+}
+.scroll-hidden { 
+    overflow: hidden; 
+}
+
+
+
+@import 'base/variables';
+@import 'blocks/btns';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/about';
+@import 'blocks/titles';
+@import 'blocks/slider';
+@import 'blocks/bads';
+@import 'blocks/mattresses';
+@import 'blocks/child_matt';
+@import 'blocks/collections';
+@import 'blocks/commodes';
+@import 'blocks/kitchen';
+@import 'blocks/sofas';
+@import 'blocks/product';
+@import 'blocks/footer';
+@import 'blocks/mob-menu';
+@import 'blocks/media';
+
+
+
+
+
+.m25 {
+    margin: 25px;
+}
+.op1 {
+    opacity: 1;
+    margin-bottom: 55px;
+}
+.main-bg {
+    background-color: rgba(61,94,101,0.8);
+}
+
+@media (min-width: 1200px) and (max-width: 1799px) {
+    .op1 {
+        margin-bottom: 25px;
+    }
+}
+@media (min-width: 900px) and (max-width: 1199px) {
+    .op1 {
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 600px) and (max-width: 899px) {
+    .op1 {
+        margin-bottom: 25px;
+    }
+}

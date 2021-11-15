@@ -1,0 +1,12 @@
+.childmatt {
+    min-height: 700px;
+    background-color: $main-red;
+    &__wrapper {
+        padding-top: 105px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__slider {
+        max-width: 1170px;
+    } 
+}

@@ -1,0 +1,116 @@
+.promo {
+    padding-bottom: 0;
+    &__menu {
+        height: 86px;
+        padding-top: 31px;
+        &_items {
+            display: flex;
+            justify-content: space-between;            
+        }
+        &_item img{
+            margin-right: 13px;
+        }
+        &_item a{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: $main-green;
+            text-transform: uppercase;
+        }
+    }
+    &__slider {
+        &_wrapper {
+            height: 600px;
+            position: relative;
+        }
+        &_img {
+            position: absolute;
+        }
+        &_descr {
+            position: absolute;
+            width: 572px;
+            height: 100%;
+            background-color: rgba(61,96,106,0.9);
+            padding: 120px 85px 0 47px;
+            &_subtitle {
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 16px;
+                color: $main-red;
+            }
+            &_title {
+                font-weight: 800;
+                font-size: 35px;
+                line-height: 40px;
+                color: #fff;
+                margin-top: 36px;
+            }
+            .btn_titles {
+                margin-top: 90px;
+            }
+            &_number {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+                color: #fff;
+                margin-top: 114px;
+                span {
+                    color: $main-red;
+                }
+            }
+        }
+    }
+    &__about {
+        margin-top: 30px;
+        height: 264px;
+        display: flex;
+        justify-content: space-between;
+        &_item {
+            padding-left: 40px;
+            &_subtitle{
+                font-weight: bold;
+                font-size: 13px;
+                line-height: 16px;
+                color: $main-red;
+                text-transform: uppercase;
+            }
+            &_title {
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 30px;
+                margin-top: 17px;
+                color: #fff;
+            }
+            &_descr {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #fff;
+                margin-top: 12px;
+            }
+
+        }
+    }
+    
+}
+
+.know {
+    width: 1020px;
+    padding-top: 85px;
+    padding-right: 115px;
+    background: url('../img/promo/about/Rectangle11.jpg') no-repeat;
+
+}
+.products {
+    width: 720px;
+    padding-top: 121px;
+    padding-right: 150px;
+    background: url('../img/promo/about/Rectangle12.jpg') no-repeat;
+}
+.active {
+    a {
+        color: $main-red;
+    }    
+}

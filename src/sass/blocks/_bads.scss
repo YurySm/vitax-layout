@@ -1,0 +1,12 @@
+.bads {
+    min-height: 671px;
+    &__wrapper {
+        margin-top: 115px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__slider {
+        max-width: 1170px;
+    }   
+
+}
